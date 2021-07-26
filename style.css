@@ -90,10 +90,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/*.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -477,6 +477,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: #505050!important;
 }
 
 .icon-lg {
@@ -646,6 +647,7 @@ h4,
 h5,
 h6,
 p,
+figcaption,
 label,
 .btn,
 a {
@@ -739,6 +741,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black, .icon-md:hover{
+    color: #000000!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -753,7 +759,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.7); /* background-color: rgba(165, 147, 99, 0.7);*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -780,11 +786,11 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #ac623e!important; /*c27956*/
     color: #FFFFFF!important;
 }
 

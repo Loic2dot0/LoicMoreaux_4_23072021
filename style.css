@@ -465,7 +465,7 @@ button {
 }
 
 .btn-rd {
-    border-radius: 40px;
+    border-radius: 40px!important;
 }
 
 .btn-clean {
@@ -706,6 +706,14 @@ p, figcaption {
     margin: auto auto auto auto;
 }
 
+.social_button{
+    display: inline-block;
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -829,6 +837,27 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+/*input:required, textarea:required{
+    outline: solid 3px #ff0000;
+}*/
+
+a:focus, input:focus, textarea:focus{
+    border-top: solid 3px #000;
+    border-right: solid 3px #000;
+    border-bottom: solid 3px #F3976C;
+    border-left: solid 3px #F3976C;
+    border-radius: 10px;
+}
+
+button:focus, .button_focus:focus{
+    border: solid 3px #000;
+    background-color: #fff;
+}
+
+.social_button:focus{   
+    border: solid 3px #000;
 }
 
 @media (max-width: 1024px) {
